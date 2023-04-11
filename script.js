@@ -12,5 +12,6 @@ function fibonacci(num) {
   }
 
 }
+fibonacci(num);
 
 module.exports = fibonacci;
