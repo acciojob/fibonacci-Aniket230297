@@ -1,14 +1,18 @@
 function fibonacci(num) {
 	
 // your code here
-	let a = 0, b = 1, c;
-  console.log(a);
-  console.log(b);
-  for (let i = 2; i < num; i++) {
-    c = a + b;
-    console.log(c);
-    a = b;
-    b = c;
+	
+var num1=0;
+var num2=1;
+var sum;
+var i=0;
+for (i = 0; i < num; i++)
+{
+sum=num1+num2;
+num1=num2;
+num2=sum;
+}
+return num2;
   }
 
 }
